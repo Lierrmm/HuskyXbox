@@ -1,0 +1,164 @@
+iwmap 4
+"script_startingnumber" 0
+"000_Global" flags  active
+"The Map" flags expanded 
+// entity 0
+{
+"classname" "worldspawn"
+"fsi" "default"
+"gravity" "800"
+"lodbias" "default"
+"lutmaterial" "luts_t7_default"
+"numOmniShadowSlices" "24"
+"numSpotShadowSlices" "64"
+"sky_intensity_factor0" "1"
+"sky_intensity_factor1" "1"
+"state_alias_1" "State 1"
+"state_alias_2" "State 2"
+"state_alias_3" "State 3"
+"state_alias_4" "State 4"
+}
+// entity 1
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 2
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 3
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 4
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 5
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 6
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 7
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 8
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 9
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 10
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 11
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 12
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 13
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 14
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 15
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 16
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 17
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}
+// entity 18
+{
+"classname" "misc_model"
+"model" "?B3?ust"
+"origin" "0.0000 0.0000 0.0000"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "0"
+}

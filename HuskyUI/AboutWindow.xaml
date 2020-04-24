@@ -1,0 +1,69 @@
+﻿<Window
+    x:Class="HuskyUI.AboutWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:HuskyUI"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="About Husky"
+    Width="400"
+    Height="170.5"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterOwner"
+    WindowStyle="ToolWindow"
+    mc:Ignorable="d">
+    <Grid Background="#FF1E2127">
+        <Label
+            Width="279"
+            Height="27"
+            Margin="105,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="{x:Null}"
+            Content="Husky - Call of Duty BSP Extractor"
+            Foreground="White" />
+        <Label
+            Width="279"
+            Height="27"
+            Margin="105,37,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="{x:Null}"
+            Content="Developed by Scobalula"
+            Foreground="White" />
+        <Label
+            x:Name="VersionLabel"
+            Width="279"
+            Height="27"
+            Margin="105,64,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="{x:Null}"
+            Content="Version: {0}"
+            Foreground="White" />
+        <Button
+            x:Name="HomePageButton"
+            Width="90"
+            Height="27"
+            Margin="10,0,0,10"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Click="HomePageButtonClick"
+            Content="Github Repo"
+            Style="{StaticResource SidebarButton}" />
+        <Button
+            x:Name="DonateButton"
+            Width="90"
+            Height="27"
+            Margin="105,0,0,10"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Click="DonateButtonClick"
+            Content="Donate"
+            Style="{StaticResource SidebarButton}" />
+        <Image
+            Margin="10,10,294,41"
+            Source="icon.png"
+            Stretch="Fill" />
+    </Grid>
+</Window>

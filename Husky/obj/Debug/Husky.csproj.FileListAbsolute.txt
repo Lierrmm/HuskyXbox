@@ -1,0 +1,12 @@
+C:\Users\Liam\source\repos\HuskyXBOX\Husky\bin\Debug\Husky.dll
+C:\Users\Liam\source\repos\HuskyXBOX\Husky\bin\Debug\Husky.pdb
+C:\Users\Liam\source\repos\HuskyXBOX\Husky\bin\Debug\PhilLibX.dll
+C:\Users\Liam\source\repos\HuskyXBOX\Husky\bin\Debug\XRPC.dll
+C:\Users\Liam\source\repos\HuskyXBOX\Husky\bin\Debug\PhilLibX.pdb
+C:\Users\Liam\source\repos\HuskyXBOX\Husky\obj\Debug\Husky.csprojAssemblyReference.cache
+C:\Users\Liam\source\repos\HuskyXBOX\Husky\obj\Debug\Interop.XDevkit.dll
+C:\Users\Liam\source\repos\HuskyXBOX\Husky\obj\Debug\Husky.csproj.ResolveComReference.cache
+C:\Users\Liam\source\repos\HuskyXBOX\Husky\obj\Debug\Husky.csproj.CoreCompileInputs.cache
+C:\Users\Liam\source\repos\HuskyXBOX\Husky\obj\Debug\Husky.csproj.CopyComplete
+C:\Users\Liam\source\repos\HuskyXBOX\Husky\obj\Debug\Husky.dll
+C:\Users\Liam\source\repos\HuskyXBOX\Husky\obj\Debug\Husky.pdb

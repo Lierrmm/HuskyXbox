@@ -1,0 +1,12 @@
+D:\Web Development\Husky\src\Husky\PhilLibX\bin\Debug\PhilLibX.dll
+D:\Web Development\Husky\src\Husky\PhilLibX\bin\Debug\PhilLibX.pdb
+D:\Web Development\Husky\src\Husky\PhilLibX\obj\Debug\PhilLibX.csprojAssemblyReference.cache
+D:\Web Development\Husky\src\Husky\PhilLibX\obj\Debug\PhilLibX.csproj.CoreCompileInputs.cache
+D:\Web Development\Husky\src\Husky\PhilLibX\obj\Debug\PhilLibX.dll
+D:\Web Development\Husky\src\Husky\PhilLibX\obj\Debug\PhilLibX.pdb
+C:\Users\Liam\source\repos\HuskyXBOX\PhilLibX\bin\Debug\PhilLibX.dll
+C:\Users\Liam\source\repos\HuskyXBOX\PhilLibX\bin\Debug\PhilLibX.pdb
+C:\Users\Liam\source\repos\HuskyXBOX\PhilLibX\obj\Debug\PhilLibX.csprojAssemblyReference.cache
+C:\Users\Liam\source\repos\HuskyXBOX\PhilLibX\obj\Debug\PhilLibX.csproj.CoreCompileInputs.cache
+C:\Users\Liam\source\repos\HuskyXBOX\PhilLibX\obj\Debug\PhilLibX.dll
+C:\Users\Liam\source\repos\HuskyXBOX\PhilLibX\obj\Debug\PhilLibX.pdb

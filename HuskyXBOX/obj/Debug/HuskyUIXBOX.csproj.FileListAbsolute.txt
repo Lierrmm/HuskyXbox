@@ -1,0 +1,8 @@
+C:\Users\Liam\source\repos\HuskyXBOX\HuskyXBOX\obj\Debug\MainWindow.baml
+C:\Users\Liam\source\repos\HuskyXBOX\HuskyXBOX\obj\Debug\MainWindow.g.cs
+C:\Users\Liam\source\repos\HuskyXBOX\HuskyXBOX\obj\Debug\App.g.cs
+C:\Users\Liam\source\repos\HuskyXBOX\HuskyXBOX\obj\Debug\HuskyXBOX_MarkupCompile.cache
+C:\Users\Liam\source\repos\HuskyXBOX\HuskyXBOX\obj\Debug\HuskyXBOX.g.resources
+C:\Users\Liam\source\repos\HuskyXBOX\HuskyXBOX\obj\Debug\HuskyXBOX.Properties.Resources.resources
+C:\Users\Liam\source\repos\HuskyXBOX\HuskyXBOX\obj\Debug\HuskyUIXBOX.csproj.GenerateResource.cache
+C:\Users\Liam\source\repos\HuskyXBOX\HuskyXBOX\obj\Debug\HuskyUIXBOX.csproj.CoreCompileInputs.cache
