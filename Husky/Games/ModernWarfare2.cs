@@ -19,7 +19,7 @@ namespace Husky
         {
             public int NamePointer { get; set; }
             public int MapNamePointer { get; set; }
-            public uint SurfaceCount { get; set; }
+            public int SurfaceCount { get; set; }
             public int GfxVertexCount { get; set; }
             public int GfxVerticesPointer { get; set; }
             public int GfxIndicesCount { get; set; }
@@ -34,14 +34,14 @@ namespace Husky
                 {
                     NamePointer = console.ReadInt32(value),
                     MapNamePointer = console.ReadInt32(value + 0x4),
-                    SurfaceCount = (uint)console.ReadInt32(value + 0x10),
-                    GfxVertexCount = console.ReadInt32(value + 0x78),
-                    GfxVerticesPointer = console.ReadInt32(value + 0x7C),
-                    GfxIndicesCount = console.ReadInt32(value + 0xC8),
-                    GfxIndicesPointer = console.ReadInt32(value + 0xCC),
-                    GfxStaticModelsCount = console.ReadInt32(value + 0x128),
-                    GfxSurfacesPointer = console.ReadInt32(value + 0x218),
-                    GfxStaticModelsPointer = console.ReadInt32(value + 0x21C)
+                    SurfaceCount = console.ReadInt32(0x83CAC77C),
+                    GfxVertexCount = console.ReadInt32(0x83CAC5D0),
+                    GfxVerticesPointer = console.ReadInt32(0x83CAC5D4),
+                    GfxIndicesCount = console.ReadInt32(0x83CAC620),
+                    GfxIndicesPointer = console.ReadInt32(0x83CAC624),
+                    GfxStaticModelsCount = console.ReadInt32(0x83CAC778),
+                    GfxSurfacesPointer = console.ReadInt32(0x83CAC7C8),
+                    GfxStaticModelsPointer = console.ReadInt32(0x83CAC7D0)
                 };
                 return p;
             }
@@ -86,7 +86,7 @@ namespace Husky
             /// <summary>
             /// Unknown Bytes
             /// </summary>
-            public fixed byte Padding[4];
+            public int crap { get; set; }
 
             public static explicit operator GfxSurface(uint value)
             {
@@ -94,10 +94,11 @@ namespace Husky
                 {
                     UnknownBaseIndex = console.ReadInt32(value),
                     VertexIndex = console.ReadInt32(value + 0x4),
-                    VertexCount = (ushort)console.ReadInt16(value + 0x8),
-                    FaceCount = (ushort)console.ReadInt16(value + 0xA),
-                    FaceIndex = console.ReadInt32(value + 0xE),
-                    MaterialPointer = console.ReadInt32(value + 0x12)
+                    VertexCount = console.ReadUInt16(value + 0x8),
+                    FaceCount = console.ReadUInt16(value + 0xA),
+                    FaceIndex = console.ReadInt32(value + 0xC),
+                    MaterialPointer = console.ReadInt32(value + 0x10),
+                    crap = console.ReadInt32(value + 0x14)
                 };
                 return p;
             }
@@ -132,7 +133,7 @@ namespace Husky
             /// A pointer to this Material's Image table
             /// </summary>
             public int ImageTablePointer { get; set; }
-
+            //TODO: Material Header
             public static explicit operator Material(uint value)
             {
                 var p = new Material
@@ -154,12 +155,12 @@ namespace Husky
             /// <summary>
             /// Semantic Hash/Usage
             /// </summary>
-            public uint SemanticHash { get; set; }
+            public int SemanticHash { get; set; }
 
             /// <summary>
             /// Unknown Int
             /// </summary>
-            public uint UnknownInt { get; set; }
+            public int UnknownInt { get; set; }
 
             /// <summary>
             /// Pointer to the Image Asset
@@ -170,8 +171,8 @@ namespace Husky
             {
                 var p = new MaterialImage32B
                 {
-                    SemanticHash = (uint)console.ReadInt32(value),
-                    UnknownInt = (uint)console.ReadInt32(value + 0x4),
+                    SemanticHash = console.ReadInt32(value),
+                    UnknownInt = console.ReadInt32(value + 0x4),
                     ImagePointer = console.ReadInt16(value + 0x8),
                 };
                 return p;
@@ -196,12 +197,12 @@ namespace Husky
             // Validate by XModel Name
             printCallback?.Invoke($"AssetPools Address: {assetPoolsAddress:X}");
             //_xrpc
-            var _void = console.ReadUInt32(assetPoolsAddress + 0x10);
+            var _void = console.ReadUInt32(console.ReadUInt32(assetPoolsAddress + 0x10) + 4);
             var txt = console.ReadString(_void);
             printCallback?.Invoke($"Address Found: {txt}");
             if (txt == "void")
             {
-                var gfxMapAsset = (GfxMap)0x83CAC558;
+                var gfxMapAsset = (GfxMap)console.ReadUInt32(assetPoolsAddress + 0x4C);
                 var gfxMapName = console.ReadString((uint)gfxMapAsset.NamePointer);
                 var mapName = console.ReadString((uint)gfxMapAsset.MapNamePointer);
                 if (string.IsNullOrWhiteSpace(gfxMapName))
@@ -256,7 +257,8 @@ namespace Husky
                         obj.UVs.Add(vertex.UV);
                     }
 
-                    // Image Names (for Search String)
+
+                    //Image Names (for Search String)
                     var imageNames = new HashSet<string>();
 
                     // Append Faces
@@ -268,26 +270,26 @@ namespace Husky
                         imageNames.Add(material.DiffuseMap);
                         // Add it
                         obj.AddMaterial(material);
-                        // Add points
+                        //Add points
                         for (ushort i = 0; i < surface.FaceCount; i++)
                         {
-                            // Face Indices
+                            //Face Indices
                             var faceIndex1 = indices[i * 3 + surface.FaceIndex] + surface.VertexIndex;
                             var faceIndex2 = indices[i * 3 + surface.FaceIndex + 1] + surface.VertexIndex;
                             var faceIndex3 = indices[i * 3 + surface.FaceIndex + 2] + surface.VertexIndex;
 
-                            // Validate unique points, and write to OBJ
+                            //Validate unique points, and write to OBJ
                             if (faceIndex1 != faceIndex2 && faceIndex1 != faceIndex3 && faceIndex2 != faceIndex3)
                             {
-                                // new Obj Face
-                                var objFace = new WavefrontOBJ.Face(material.Name);
+                               //new Obj Face
+                               var objFace = new WavefrontOBJ.Face(material.Name);
 
-                                // Add points
+                                //Add points
                                 objFace.Vertices[0] = new WavefrontOBJ.Face.Vertex(faceIndex1, faceIndex1, faceIndex1);
                                 objFace.Vertices[2] = new WavefrontOBJ.Face.Vertex(faceIndex2, faceIndex2, faceIndex2);
                                 objFace.Vertices[1] = new WavefrontOBJ.Face.Vertex(faceIndex3, faceIndex3, faceIndex3);
 
-                                // Add to OBJ
+                                //Add to OBJ
                                 obj.Faces.Add(objFace);
                             }
                         }
@@ -297,12 +299,12 @@ namespace Husky
                     obj.Save(outputName + ".obj");
 
                     //// Build search strinmg
-                    var searchString = imageNames.Aggregate("", (current, imageName) => current + String.Format("{0},", Path.GetFileNameWithoutExtension(imageName)));
+                    //var searchString = imageNames.Aggregate("", (current, imageName) => current + $"{Path.GetFileNameWithoutExtension(imageName)},");
 
                     // Loop through images, and append each to the search string (for Wraith/Greyhound)
 
                     // Dump it
-                    File.WriteAllText(outputName + "_search_string.txt", searchString);
+                    //File.WriteAllText(outputName + "_search_string.txt", searchString);
 
                     // Read entities and dump to map
                     mapFile.Entities.AddRange(ReadStaticModels((uint)gfxMapAsset.GfxStaticModelsPointer, gfxMapAsset.GfxStaticModelsCount));
@@ -363,7 +365,7 @@ namespace Husky
         }
 
 
-        public static GfxSurface[] ReadGfxSufaces(int address, uint count)
+        public static GfxSurface[] ReadGfxSufaces(int address, int count)
         {
             // Preallocate short array
             var surfaces = new GfxSurface[count];
@@ -389,7 +391,7 @@ namespace Husky
             // Read Material
             var material = (Material)((uint)address);
             // Create new OBJ Image
-            var _path = console.ReadString((uint)address).Replace("*", "");
+            var _path = console.ReadString(console.ReadUInt32((uint)address)).Replace("*", "");
             var objMaterial = new WavefrontOBJ.Material(Path.GetFileNameWithoutExtension(_path));
             // Loop over images
             for (byte i = 0; i < material.ImageCount; i++)

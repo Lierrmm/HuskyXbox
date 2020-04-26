@@ -1,0 +1,1062 @@
+newmtl me_wire_black
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl wood_wall_siding_lightgreen
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_ground_dirt02
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl grass_dry_rocks01
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl ch_concretewall06
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl ch_ground_dirt03
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl ch_plaster02
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl ch_stonewall_02
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl ch_window_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_cargocontainer_interiordoo
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_cargocontainer_interiorwal
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_door_07
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_door_green
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_metal_rust_02
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_woodplanks01
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl rock_cliffwall_3
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl concrete_dirty_cracked
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl woodboard_weathered
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl plaster_cracked_paint02
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_metal_rust_big
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl dirt_sand_01
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl dirt_sand_pebbles
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl dirt_01
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl rock_brown2
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl rock_brown4
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 2n_4
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 2n_4_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 17n_19n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 42n_43n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 9n_10n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_26n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 50n_51n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 33n_34n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 35n_34n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 42n_34n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 44n_45n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 44n_47n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 37n_34n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 38n_34n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 41n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 28n_21n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 28n_24n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 28n_29n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 28n_30n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 28n_32n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 2n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 42n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 56n_24n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 56n_30n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 56n_32n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 12n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 22n_21n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 22n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 22n_6n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_21n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_24n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_6n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 27n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 17n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 17n_6n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 54n_30n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 16n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 41n_20n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 17n_20n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 28n_31n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 56n_31n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 56n_57n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 52n_53n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 42n_43n_34n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 42n_43n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_3n_26n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 42n_3n_34n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 41n_21n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 28n_21n_29n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 28n_30n_24n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 28n_32n_29n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 2n_3n_6n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 56n_32n_24n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 22n_21n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 22n_3n_6n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_3n_24n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_6n_24n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 27n_21n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 17n_21n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 17n_3n_6n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 56n_30n_57n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 41n_20n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 17n_20n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 28n_31n_29n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 56n_31n_24n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 56n_31n_32n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 56n_57n_32n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_21n_25n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 42n_43n_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 62n_63n_64
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 60n_51n_49
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 62n_63n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 60n_51n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 62n_51n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 44n_46
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 42n_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 48n_49
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 12n_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 12n_14
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 12n_15
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 12n_5
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 50n_49
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 44n_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 42n_13_34n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 44n_13_47n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 12n_13_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 12n_14_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 12n_15_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 12n_5_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 50n_49_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 62n_49_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 65n_14_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 65n_5_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 60n_49
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 62n_49
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 62n_64
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 65n_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 65n_5
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl ch_concretewall03
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_stonewall_01
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl ct_fire_esc_trim01
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl metal_aluminum_siding_02
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 54n_55
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_metal_rust_03
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 66n_4
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 66n_4_67
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 66n_34n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 66n_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 66n_5
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 66n_5_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl ch_factory_floorgrate
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_floor_metalgratingparallel
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl bg_facades_vegitation01
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl dirt_cracked_02
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl rock_pebbles
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 56n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 58n_24n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_26n_24n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 56n_3n_24n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_21n_24n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_3n_6n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_24n_25n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_3n_25n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 58n_24n_25n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_25n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 58n_25n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 27n_21n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_20n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_20n_3n
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 17n_3n_18
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 2n_3n_5
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 17n_18
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 2n_5
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_5
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 23n_5_5
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 65n_14
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 62n_51n_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 60n_49_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl 62n_13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl sky_af_chase
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl caves_river_water
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_riverstain2
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_fence_chainlink_dblface
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl dirt_sand_01_dec
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl rock_cliffwall_4_dec
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_oilstain
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl ch_dec_burntstain_02
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl water_ocean_foam_scrolling
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl water_ocean_solid_scrolling
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl me_metal_rust_03_dec
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+
+newmtl shadowcaster
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Ks 0.00 0.00 0.00
+

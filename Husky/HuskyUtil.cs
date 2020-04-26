@@ -9,7 +9,7 @@ namespace Husky
     {
         private static readonly Dictionary<string, GameDefinition> Games = new Dictionary<string, GameDefinition>()
         {
-            {"iw4mp", new GameDefinition(0x823D2560, 0x823D2100, "mp", ModernWarfare2.ExportBSPData)},
+            {"iw4mp", new GameDefinition(0x823D24B8, 0x823D2100, "mp", ModernWarfare2.ExportBSPData)},
         };
 
 
